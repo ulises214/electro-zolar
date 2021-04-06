@@ -1,11 +1,13 @@
+import { Link } from 'react-router-dom';
+
 import ElectroZolarLogo from '../assets/img/logo.svg';
 const Logo = () => {
   return (
-    <a className='logo' href={process.env.PUBLIC_URL + '/'}>
+    <Link className='logo' to={'/'}>
       <img src={ElectroZolarLogo} alt='Logo electrozolar' />
       <span>Electro</span>
       <span>Zolar</span>
-    </a>
+    </Link>
   );
 };
 
