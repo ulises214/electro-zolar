@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/electro-zolar/static/css/main.2a291d97.chunk.css",
-    "main.js": "/electro-zolar/static/js/main.0d1d88a0.chunk.js",
-    "main.js.map": "/electro-zolar/static/js/main.0d1d88a0.chunk.js.map",
+    "main.css": "/electro-zolar/static/css/main.d504e3f5.chunk.css",
+    "main.js": "/electro-zolar/static/js/main.c20c6237.chunk.js",
+    "main.js.map": "/electro-zolar/static/js/main.c20c6237.chunk.js.map",
     "runtime-main.js": "/electro-zolar/static/js/runtime-main.d83dd2db.js",
     "runtime-main.js.map": "/electro-zolar/static/js/runtime-main.d83dd2db.js.map",
-    "static/js/2.f8317af8.chunk.js": "/electro-zolar/static/js/2.f8317af8.chunk.js",
-    "static/js/2.f8317af8.chunk.js.map": "/electro-zolar/static/js/2.f8317af8.chunk.js.map",
+    "static/js/2.99cdef72.chunk.js": "/electro-zolar/static/js/2.99cdef72.chunk.js",
+    "static/js/2.99cdef72.chunk.js.map": "/electro-zolar/static/js/2.99cdef72.chunk.js.map",
     "static/js/3.beb07ea3.chunk.js": "/electro-zolar/static/js/3.beb07ea3.chunk.js",
     "static/js/3.beb07ea3.chunk.js.map": "/electro-zolar/static/js/3.beb07ea3.chunk.js.map",
     "index.html": "/electro-zolar/index.html",
-    "static/css/main.2a291d97.chunk.css.map": "/electro-zolar/static/css/main.2a291d97.chunk.css.map",
-    "static/js/2.f8317af8.chunk.js.LICENSE.txt": "/electro-zolar/static/js/2.f8317af8.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/electro-zolar/static/media/logo.6ce24c58.svg"
+    "static/css/main.d504e3f5.chunk.css.map": "/electro-zolar/static/css/main.d504e3f5.chunk.css.map",
+    "static/js/2.99cdef72.chunk.js.LICENSE.txt": "/electro-zolar/static/js/2.99cdef72.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d83dd2db.js",
-    "static/js/2.f8317af8.chunk.js",
-    "static/css/main.2a291d97.chunk.css",
-    "static/js/main.0d1d88a0.chunk.js"
+    "static/js/2.99cdef72.chunk.js",
+    "static/css/main.d504e3f5.chunk.css",
+    "static/js/main.c20c6237.chunk.js"
   ]
 }
