@@ -1,0 +1,22 @@
+@import '../variables';
+header {
+  display: grid;
+  grid-template-columns: calc(100% - 2rem) 2rem;
+  gap: unset;
+  justify-content: space-around;
+  align-items: center;
+  > a {
+    padding: 1rem 0 1rem 1rem;
+  }
+  > img {
+    padding: 1rem 0.5rem 1rem 0;
+  }
+
+  @media (min-width: $mediaLaptopM) {
+    display: flex;
+    flex-direction: row;
+    > nav {
+      padding: 1rem 0.5rem 1rem 0;
+    }
+  }
+}
