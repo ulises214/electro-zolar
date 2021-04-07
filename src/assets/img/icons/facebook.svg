@@ -9,14 +9,14 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    aria-hidden="true"
    focusable="false"
-   data-prefix="fas"
-   data-icon="bars"
-   class="svg-inline--fa fa-bars fa-w-14"
+   data-prefix="fab"
+   data-icon="facebook-f"
+   class="svg-inline--fa fa-facebook-f fa-w-10"
    role="img"
-   viewBox="0 0 448 512"
+   viewBox="0 0 320 512"
    version="1.1"
    id="svg4"
-   sodipodi:docname="bars.svg"
+   sodipodi:docname="facebook.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
   <metadata
      id="metadata10">
@@ -40,21 +40,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1326"
+     inkscape:window-width="679"
      inkscape:window-height="696"
      id="namedview6"
      showgrid="false"
      inkscape:zoom="0.8010194"
-     inkscape:cx="-41.249742"
-     inkscape:cy="225.651"
+     inkscape:cx="-17.969121"
+     inkscape:cy="364.2827"
      inkscape:window-x="20"
      inkscape:window-y="52"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg4"
-     inkscape:document-rotation="0" />
+     inkscape:current-layer="svg4" />
   <path
      fill="currentColor"
-     d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+     d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
      id="path2"
-     style="fill:#2592a4;fill-opacity:1" />
+     style="fill:#23286b;fill-opacity:1" />
 </svg>

@@ -10,16 +10,14 @@
    aria-hidden="true"
    focusable="false"
    data-prefix="fas"
-   data-icon="times"
-   class="svg-inline--fa fa-times fa-w-11"
+   data-icon="envelope"
+   class="svg-inline--fa fa-envelope fa-w-16"
    role="img"
-   viewBox="0 0 448 512"
+   viewBox="0 0 512 512"
    version="1.1"
    id="svg14"
-   sodipodi:docname="times.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
-   width="448"
-   height="512">
+   sodipodi:docname="mail.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
   <metadata
      id="metadata20">
     <rdf:RDF>
@@ -28,7 +26,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -47,17 +44,16 @@
      inkscape:window-height="696"
      id="namedview16"
      showgrid="false"
-     inkscape:zoom="0.56640625"
-     inkscape:cx="318.86266"
-     inkscape:cy="288.87136"
+     inkscape:zoom="1.1328125"
+     inkscape:cx="139.91724"
+     inkscape:cy="256"
      inkscape:window-x="20"
      inkscape:window-y="52"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg14"
-     inkscape:document-rotation="0" />
+     inkscape:current-layer="svg14" />
   <path
      fill="currentColor"
-     d="M 308.91636,256 436.27818,128.63818 c 15.62909,-15.62909 15.62909,-40.96909 0,-56.61091 L 407.97271,43.721818 c -15.62909,-15.629091 -40.96907,-15.629091 -56.61089,0 L 224,171.08362 96.638181,43.721818 c -15.62909,-15.629091 -40.96909,-15.629091 -56.61091,0 L 11.721818,72.02727 c -15.6290908,15.62909 -15.6290908,40.96909 0,56.61091 L 139.08362,256 11.721818,383.36182 c -15.6290908,15.62909 -15.6290908,40.96909 0,56.61089 l 28.305453,28.30547 c 15.629093,15.62909 40.98182,15.62909 56.61091,0 L 224,340.91636 351.36182,468.27818 c 15.62909,15.62909 40.9818,15.62909 56.61089,0 l 28.30547,-28.30547 c 15.62909,-15.62909 15.62909,-40.96907 0,-56.61089 z"
+     d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
      id="path12"
-     style="fill:#2592a4;fill-opacity:1;stroke-width:1.27273" />
+     style="fill:#23286b;fill-opacity:1" />
 </svg>
