@@ -1,7 +1,7 @@
 interface SectionProps {
   color: 'white' | 'blue';
   children: React.ReactNode;
-  className: string;
+  className?: string;
 }
 export const Section = ({ color, children, className }: SectionProps) => {
   return (
