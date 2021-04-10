@@ -1,0 +1,18 @@
+.ready-to-start {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 2.5rem;
+  &__title {
+    font-size: 2rem;
+    width: auto;
+  }
+
+  @media (min-width: $mediaTablet) {
+    flex-direction: row;
+    align-items: center;
+    &__title {
+      padding-right: 2rem;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import Benefits from './Benefits';
 import Presentation from './Presentation';
+import ReadyToStart from './ReadyToStart';
 import WhoWeAre from './WhoWeAre';
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Presentation />
       <Benefits />
       <WhoWeAre />
+      <ReadyToStart />
     </>
   );
 };
