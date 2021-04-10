@@ -1,7 +1,8 @@
 import Promocion from '../../assets/img/promocion del mes.jpg';
 import LinkButton from '../../components/LinkButton';
+import { Section } from '../../components/Section';
 const Presentation = () => (
-  <section className='presentation section section__white'>
+  <Section color='white' className='presentation'>
     <div className='presentation__info'>
       <h1>Energía solar al alcance de todos</h1>
       <p>
@@ -19,6 +20,6 @@ const Presentation = () => (
       src={Promocion}
       alt='Promoción del mes'
     />
-  </section>
+  </Section>
 );
 export default Presentation;
