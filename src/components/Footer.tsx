@@ -3,7 +3,6 @@ import MobileIcon from '../assets/img/icons/mobile.svg';
 import PhoneIcon from '../assets/img/icons/phone.svg';
 import FacebookIcon from '../assets/img/icons/facebook.svg';
 import Logo from './Logo';
-import useMatchScreenSize from '../hooks/useMatchScreenSize';
 const FooterNetworkItem = ({
   src,
   title,
