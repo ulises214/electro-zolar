@@ -1,0 +1,23 @@
+@import '../variables';
+.logo {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+  span {
+    font-size: 2rem;
+    font-family: 'Montserrat';
+    &:first-of-type {
+      color: $blue;
+    }
+    &:last-of-type {
+      color: $yellow;
+    }
+  }
+}
