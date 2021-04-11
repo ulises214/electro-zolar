@@ -1,0 +1,26 @@
+.collapse {
+  @include grid(start, center, auto);
+  width: 90%;
+  max-width: 70rem;
+  gap: 2rem;
+  &__item {
+    &__title {
+      padding-bottom: 0.4rem;
+      border-bottom: 0.2rem solid $blue-dark;
+      cursor: pointer;
+      outline: none;
+      margin-bottom: 0.5rem;
+    }
+
+    &__images {
+      @include grid(start, start, repeat(2, 50%));
+      gap: 0.5rem;
+      &__img {
+        width: 15rem;
+      }
+    }
+  }
+  @media (min-width: $mediaTablet) {
+    @include grid(space-around, start, repeat(2, 50%));
+  }
+}

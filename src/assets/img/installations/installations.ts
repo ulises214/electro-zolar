@@ -12,7 +12,7 @@ import sindicato_de_trabajadores from './img/sindicato_de_trabajadores/index';
 import templo from './img/templo/index';
 import tlajomulco from './img/tlajomulco/index';
 import zacatecas from './img/zacatecas/index';
-interface Installation {
+export interface Installation {
   name: string;
   images: string[];
 }
