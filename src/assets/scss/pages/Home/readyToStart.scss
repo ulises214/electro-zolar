@@ -3,10 +3,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  &__title {
-    font-size: 2rem;
-    width: auto;
-  }
+  // &__title {
+  // }
 
   @media (min-width: $mediaTablet) {
     flex-direction: row;
