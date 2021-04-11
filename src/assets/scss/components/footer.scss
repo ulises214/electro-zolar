@@ -1,12 +1,10 @@
 @import '../variables';
 footer {
   .footer__container {
-    display: flex;
-    flex-direction: column;
+    @include flex(space-between, flex-start, column);
   }
   .footer__link {
-    display: flex;
-    flex-direction: column;
+    @include flex(space-evenly, flex-start, column);
     text-decoration: none;
     color: $blue-dark;
     &__img {
@@ -20,17 +18,13 @@ footer {
   }
   @media (min-width: $mediaLaptopM) {
     .footer__container {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-between;
-      > .footer__container__links {
+      @include flex(space-between, flex-start, row);
+      &__links {
         margin-top: -1rem;
         margin-left: 6rem;
       }
       .footer__link {
-        flex-direction: row;
-        align-items: center;
+        @include grid(start, center, 3.5rem auto);
         &__img {
           padding-right: 1.5rem;
         }

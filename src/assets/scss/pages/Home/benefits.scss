@@ -1,5 +1,4 @@
 .benefits {
-  flex-direction: column;
   &__item {
     padding: 3rem 1rem;
     &__img {
@@ -15,9 +14,6 @@
     }
   }
   @media (min-width: $mediaTablet) {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    align-items: start;
-    justify-content: center;
+    @include grid(center, start, repeat(3, auto));
   }
 }

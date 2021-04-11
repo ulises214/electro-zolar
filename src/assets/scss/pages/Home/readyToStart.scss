@@ -1,14 +1,12 @@
 .ready-to-start {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  @include flex(center, flex-start);
   // &__title {
   // }
 
   @media (min-width: $mediaTablet) {
     flex-direction: row;
     align-items: center;
+    @include flex(space-around, center, flex-start);
 
     &__title {
       padding-right: 4rem;

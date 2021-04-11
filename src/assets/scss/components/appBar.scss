@@ -1,19 +1,16 @@
 @import '../variables';
 header {
-  display: grid;
-  grid-template-columns: calc(100% - 2rem) 2rem;
-  gap: unset;
-  justify-content: space-around;
-  align-items: center;
+  @include grid(space-around, center, calc(100% - 2rem) 2rem);
+  max-width: 75rem;
+  width: 100%;
   > a {
     padding: 1rem 0 1rem 1rem;
   }
-  > img {
-  }
+  // > img {
+  // }
 
   @media (min-width: $mediaLaptopM) {
-    display: flex;
-    flex-direction: row;
+    @include flex(space-between, center, row);
     > nav {
       padding: 1rem 0.5rem 1rem 0;
     }

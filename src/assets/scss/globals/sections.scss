@@ -2,10 +2,7 @@
 @mixin base-setion {
   height: auto;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  @include flex(center, center);
 }
 .section {
   @include base-setion;
