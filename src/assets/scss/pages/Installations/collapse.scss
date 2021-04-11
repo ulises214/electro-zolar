@@ -6,7 +6,7 @@
   &__item {
     &__title {
       padding-bottom: 0.4rem;
-      border-bottom: 0.2rem solid $blue-dark;
+      border-bottom: 0.2rem solid white;
       cursor: pointer;
       outline: none;
       margin-bottom: 0.5rem;
@@ -20,7 +20,7 @@
       }
     }
   }
-  @media (min-width: $mediaTablet) {
+  @media (min-width: $mediaLaptopM) {
     @include grid(space-around, start, repeat(2, 50%));
   }
 }

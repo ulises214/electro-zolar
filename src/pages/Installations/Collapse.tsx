@@ -39,7 +39,7 @@ const CollapseItem = ({ installation, keyNumber }: CollapseItemProps) => {
 };
 const Collapse = () => {
   return (
-    <Section color='white' className='collapse'>
+    <Section color='blue' className='collapse'>
       {installations.map((i, ix) => (
         <CollapseItem installation={i} keyNumber={ix} key={ix} />
       ))}
