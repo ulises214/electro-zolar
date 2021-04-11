@@ -1,10 +1,6 @@
 @import '../variables';
 .logo {
-  text-decoration: none;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-
+  @include flex(flex-start, center, row);
   img {
     width: 2rem;
     height: 2rem;

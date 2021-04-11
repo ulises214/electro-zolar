@@ -1,0 +1,12 @@
+@mixin flex($justify, $aligment, $direction: column) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $aligment;
+  justify-content: $justify;
+}
+@mixin grid($justify, $aligment, $columns) {
+  display: grid;
+  grid-template-columns: $columns;
+  align-items: $aligment;
+  justify-content: $justify;
+}

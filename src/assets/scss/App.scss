@@ -1,8 +1,16 @@
 article {
-  background-color: red;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flex(center, center);
   width: 100%;
+}
+body,
+html,
+#root {
+  width: 100%;
+}
+body,
+html {
+  height: 100%;
+}
+#root {
+  @include flex(center, center, column);
 }

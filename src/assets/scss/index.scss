@@ -2,12 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
-body,
-html,
-#root {
-  height: 100%;
-  width: 100%;
-}
+
 * {
   box-sizing: border-box;
 }
@@ -19,14 +14,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
 }
-// ? Components
+// * Mixins
+@import './mixins/aligment.scss';
+// * Globals
+@import './globals/sections.scss';
+@import './globals/texts.scss';
+// * Components
 @import './components/appBar.scss';
 @import './components/burgerButton.scss';
 @import './components/logo.scss';
 @import './components/navBar.scss';
 @import './components/footer.scss';
-@import './sections.scss';
 @import './components/linkButton.scss';
 @import './App.scss';
-// ? Pages
+// * Pages
 @import './pages/Home/index.scss';

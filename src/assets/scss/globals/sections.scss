@@ -1,10 +1,8 @@
-@import './variables';
+@import '../variables';
 @mixin base-setion {
-  display: flex;
   height: auto;
-  justify-content: space-around;
-  align-items: center;
   width: 100%;
+  @include flex(center, center);
 }
 .section {
   @include base-setion;
