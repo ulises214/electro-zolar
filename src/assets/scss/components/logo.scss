@@ -1,6 +1,5 @@
 @import '../variables';
 .logo {
-  text-decoration: none;
   @include flex(flex-start, center, row);
   img {
     width: 2rem;
