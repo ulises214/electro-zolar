@@ -9,14 +9,15 @@ const Carousel = () => {
       <h1>Nuestro trabajo</h1>
       <div className='carousel__container'>
         {instalationsExmaple.map((i) => (
-          <div
+          <img
             key={i.name}
             className='carousel__container__img'
-            style={{
-              backgroundImage: `url(${getRandomElements(i.images, 1)[0]}`,
-            }}
-            // alt={i.name}
-          ></div>
+            src={getRandomElements(i.images, 1)[0]}
+            // style={{
+            //   backgroundImage: `url(${}`,
+            // }}
+            alt={i.name}
+          />
         ))}
       </div>
     </Section>
