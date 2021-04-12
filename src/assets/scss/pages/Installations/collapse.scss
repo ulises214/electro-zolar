@@ -13,7 +13,7 @@
     }
 
     &__images {
-      @include grid(start, start, repeat(2, 50%));
+      @include grid(start, start, auto);
       gap: 0.5rem;
       &__img {
         width: 15rem;
@@ -22,5 +22,8 @@
   }
   @media (min-width: $mediaLaptopM) {
     @include grid(space-around, start, repeat(2, 50%));
+    &__item__images {
+      @include grid(space-around, start, repeat(2, 50%));
+    }
   }
 }
