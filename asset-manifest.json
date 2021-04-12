@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/electro-zolar/static/css/main.04f0aa78.chunk.css",
-    "main.js": "/electro-zolar/static/js/main.64ef2bb1.chunk.js",
-    "main.js.map": "/electro-zolar/static/js/main.64ef2bb1.chunk.js.map",
+    "main.js": "/electro-zolar/static/js/main.cdeb1117.chunk.js",
+    "main.js.map": "/electro-zolar/static/js/main.cdeb1117.chunk.js.map",
     "runtime-main.js": "/electro-zolar/static/js/runtime-main.32f253a9.js",
     "runtime-main.js.map": "/electro-zolar/static/js/runtime-main.32f253a9.js.map",
     "static/css/2.679831fc.chunk.css": "/electro-zolar/static/css/2.679831fc.chunk.css",
@@ -65,6 +65,6 @@
     "static/css/2.679831fc.chunk.css",
     "static/js/2.74057989.chunk.js",
     "static/css/main.04f0aa78.chunk.css",
-    "static/js/main.64ef2bb1.chunk.js"
+    "static/js/main.cdeb1117.chunk.js"
   ]
 }
