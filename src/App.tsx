@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AppBar from './components/AppBar';
 import Footer from './components/Footer';
 import HomePage from './pages/Home';
+import InstallationsPage from './pages/Installations';
+
 const Routes = () => {
   return (
     <Switch>
@@ -10,7 +12,7 @@ const Routes = () => {
         <HomePage />
       </Route>
       <Route exact path='/instalaciones'>
-        pito2
+        <InstallationsPage />
       </Route>
       <Route exact path='/servicio'>
         pito3
